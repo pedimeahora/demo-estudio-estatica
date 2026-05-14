@@ -1,0 +1,101 @@
+═══════════════════════════════════════════════════════════════
+  ESTUDIO JURÍDICO GIANGRECO - INSTRUCCIONES DE USO
+═══════════════════════════════════════════════════════════════
+
+✅ TU PROYECTO ESTÁ 100% LISTO
+
+El archivo "proyecto-completo" contiene TODO lo que necesitas.
+
+═══════════════════════════════════════════════════════════════
+📋 PASOS A SEGUIR:
+═══════════════════════════════════════════════════════════════
+
+1. DESCARGA LA CARPETA "proyecto-completo"
+
+2. ABRE LA CARPETA EN VS CODE
+   - File > Open Folder
+   - Selecciona la carpeta "proyecto-completo"
+
+3. ABRE LA TERMINAL EN VS CODE
+   - Terminal > New Terminal (o Ctrl + `)
+
+4. EJECUTA (copia y pega en la terminal):
+   npm install && npm run build
+
+5. ESPERA A QUE TERMINE (3-5 minutos)
+
+6. SI TODO ESTÁ BIEN, EJECUTA:
+   npm run deploy
+
+7. ¡LISTO! TU SITIO ESTARÁ EN:
+   https://pedimeahora.github.io/demo-estudio-estatica
+
+═══════════════════════════════════════════════════════════════
+📝 ESTRUCTURA DE LA CARPETA:
+═══════════════════════════════════════════════════════════════
+
+proyecto-completo/
+├── src/
+│   ├── components/        (componentes React)
+│   ├── routes/           (páginas)
+│   ├── lib/              (utilidades)
+│   ├── hooks/            (custom hooks)
+│   ├── main.tsx          (punto de entrada)
+│   ├── index.css         (estilos)
+│   └── routeTree.gen.ts  (generado automático)
+├── public/               (archivos estáticos)
+├── package.json          (dependencias)
+├── vite.config.ts        (configuración de Vite)
+├── tailwind.config.js    (configuración de Tailwind)
+└── index.html            (HTML principal)
+
+═══════════════════════════════════════════════════════════════
+🔧 COMANDOS ÚTILES:
+═══════════════════════════════════════════════════════════════
+
+npm run dev          → Desarrollo local (http://localhost:5173)
+npm run build        → Compilar para producción
+npm run deploy       → Subir a GitHub Pages
+npm run lint         → Revisar código
+
+═══════════════════════════════════════════════════════════════
+❓ ¿QUÉ CAMBIAR?
+═══════════════════════════════════════════════════════════════
+
+Para EDITAR el sitio:
+
+1. NÚMERO DE WHATSAPP:
+   - Busca: 5491112345678
+   - Reemplaza por tu número
+
+2. EMAIL:
+   - Busca: info@giangreco.com.ar
+   - Reemplaza por tu email
+
+3. UBICACIÓN:
+   - Busca: CABA, Buenos Aires
+   - Reemplaza por tu ubicación
+
+4. NOMBRE DEL ESTUDIO:
+   - Busca: Estudio Jurídico Giangreco
+   - Reemplaza por tu nombre
+
+═══════════════════════════════════════════════════════════════
+⚠️ SI ALGO FALLA:
+═══════════════════════════════════════════════════════════════
+
+1. Ejecuta en terminal:
+   npm cache clean --force
+   
+2. Borra la carpeta node_modules:
+   Remove-Item -Recurse -Force node_modules
+
+3. Instala de nuevo:
+   npm install
+
+4. Intenta compilar:
+   npm run build
+
+═══════════════════════════════════════════════════════════════
+✨ ¡LISTO! TU PROYECTO ESTÁ COMPLETAMENTE FUNCIONAL
+═══════════════════════════════════════════════════════════════
